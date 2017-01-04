@@ -5,35 +5,23 @@ import com.sun.jna.Memory;
 import com.sun.jna.Native;
 import com.sun.jna.Platform;
 import com.sun.jna.Pointer;
+import com.sun.jna.platform.win32.Kernel32Util;
 
 public class Hostname {
-    // This is the standard, stable way of mapping, which supports extensive
-    // customization and mapping of Java to native types.
-
-    private interface CLibrary extends Library {
-        CLibrary INSTANCE = (CLibrary)
-            Native.loadLibrary((Platform.isWindows() ? "msvcrt" : "c"),
-                               CLibrary.class);
-
-        void printf(String format, Object... args);
-        int gethostname(Pointer hostname, int bufferSize);
+    private interface UnixCLibrary extends Library {
+        UnixCLibrary INSTANCE = (UnixCLibrary) Native.loadLibrary("c", UnixCLibrary.class);
+        public int gethostname(byte[] hostname, int bufferSize);
     }
 
     public static String getHostname() {
-        int hostnameBufferSize = 4097;
-        Memory hostnameBuffer = new Memory(hostnameBufferSize);
-        
-        CLibrary.INSTANCE.gethostname(hostnameBuffer, hostnameBufferSize);
-        
-        return hostnameBuffer.getString(0);
-    }
-    
-    public static void main(String[] args) {
-        int hostnameBufferSize = 4097;
-        Memory hostnameBuffer = new Memory(hostnameBufferSize);
-        
-        CLibrary.INSTANCE.gethostname(hostnameBuffer, hostnameBufferSize);
-        
-        System.out.println(hostnameBuffer.getString(0));
+        if (Platform.isWindows()) {
+            return Kernel32Util.getComputerName();
+        } else {
+            byte[] hostnameBuffer = new byte[4097];
+            
+            UnixCLibrary.INSTANCE.gethostname(hostnameBuffer, hostnameBuffer.length);
+            
+            return Native.toString(hostnameBuffer);
+        }
     }
 }
