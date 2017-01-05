@@ -3,7 +3,7 @@ Simple JNA library to get the current machine's hostname from Java
 
 I was frustrated to find that the common-ish Java idiom of `InetAddress.getLocalHost().getHostName()` was returning localhost in some cases that only seemd solved by tinkering with `/etc/hosts`. This library uses JNA to directly call the C library's gethostname method (or `Kernel32Util.getComputerName()` on Windows), and gives you back the hostname it got.
 
-You can get it via maven with...
+You can get it from maven central with a dependency like this...
 
 ```
     <dependency>
@@ -13,7 +13,7 @@ You can get it via maven with...
     </dependency>
 ```
 
-...and then use it to get the hostname with something like...
+...and then use it in your code to get the hostname with something like...
 
 ```
     import com.kstruct.gethostname4j.Hostname;
