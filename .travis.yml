@@ -1,6 +1,21 @@
+# Configuration for Travis-CI
+
 language: java
-jdk:
-  - oraclejdk8
-os:
-  - linux
-  - osx
+
+sudo: false
+  
+matrix:
+  include:
+    - os: linux
+      jdk: oraclejdk8
+    - os: osx
+      osx_image: xcode8
+
+install: true
+
+script: mvn -B install
+
+cache:
+  directories:
+  - $HOME/.m2
+  - $HOME/.binaries
