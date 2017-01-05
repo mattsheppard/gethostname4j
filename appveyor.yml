@@ -11,4 +11,4 @@ install:
   - cmd: refreshenv
 
 build_script:
-  - mvn clean validate -B -Dci -fae -Dappveyor
+  - mvn --batch-mode -V -U -e clean install -Dsurefire.useFile=false 
