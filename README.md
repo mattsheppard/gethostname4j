@@ -16,4 +16,4 @@ If it seems useful, perhaps I'll organise to get it into Maven central.
 
 Travis CI (Linux and Mac) build: [![Linux and Mac Build Status](https://travis-ci.org/mattsheppard/gethostname4j.svg?branch=master)](https://travis-ci.org/mattsheppard/gethostname4j)
 
-Appveyor (Windows) build: ![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mattsheppard/gethostname4j?branch=master&svg=true)
+Appveyor (Windows) build: [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mattsheppard/gethostname4j?branch=master&svg=true)](https://ci.appveyor.com/project/mattsheppard/gethostname4j)
