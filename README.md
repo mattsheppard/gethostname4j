@@ -5,8 +5,15 @@ I was frustrated to find that the common-ish Java idiom of `InetAddress.getLocal
 
 If it seems useful, perhaps I'll organise to get it into Maven central.
 
-See also:
+## See also
+
 - http://stackoverflow.com/questions/7348711/recommended-way-to-get-hostname-in-java
 - http://stackoverflow.com/questions/10542664/getting-hostname-with-java-fails-in-latest-jdk7
 - http://stackoverflow.com/questions/6050011/how-do-i-get-the-local-hostname-if-unresolvable-through-dns-in-java
 - http://stackoverflow.com/questions/36130908/bad-behavior-with-inetaddress-getlocalhost-gethostname-in-java-8
+
+## Builds
+
+Travis CI (Linux and Mac) build: [![Linux and Mac Build Status](https://travis-ci.org/mattsheppard/gethostname4j.svg?branch=master)](https://travis-ci.org/mattsheppard/gethostname4j)
+
+Appveyor (Windows) build: [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mattsheppard/gethostname4j?branch=master&svg=true)](https://ci.appveyor.com/project/mattsheppard/gethostname4j)
