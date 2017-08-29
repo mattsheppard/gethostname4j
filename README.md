@@ -9,9 +9,14 @@ You can get it from maven central with a dependency like this...
     <dependency>
         <groupId>com.kstruct</groupId>
         <artifactId>gethostname4j</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2</version>
     </dependency>
 ```
+or
+```gradle
+compile 'com.kstruct:gethostname4j:0.0.2'
+```
+in Gradle
 
 ...and then use it in your code to get the hostname with something like...
 
