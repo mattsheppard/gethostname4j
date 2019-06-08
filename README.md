@@ -9,12 +9,12 @@ You can get it from maven central with a dependency like this...
     <dependency>
         <groupId>com.kstruct</groupId>
         <artifactId>gethostname4j</artifactId>
-        <version>0.0.2</version>
+        <version>0.0.3</version>
     </dependency>
 ```
 or
 ```gradle
-compile 'com.kstruct:gethostname4j:0.0.2'
+compile 'com.kstruct:gethostname4j:0.0.3'
 ```
 in Gradle
 
