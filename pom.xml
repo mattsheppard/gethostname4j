@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kstruct</groupId>
 	<artifactId>gethostname4j</artifactId>
@@ -8,6 +7,8 @@
 	<name>gethostname4j</name>
 	<description>Simple JNA library to get the current machine's hostname from Java</description>
 	<url>https://github.com/mattsheppard/gethostname4j</url>
+	<!-- Note to myself - release this in maven central with... -->
+	<!-- env JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/ mvn clean deploy -P release -P ossrh -->
 
 	<licenses>
 		<license>
