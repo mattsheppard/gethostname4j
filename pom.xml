@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kstruct</groupId>
 	<artifactId>gethostname4j</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4-SNAPSHOT</version>
 
 	<name>gethostname4j</name>
 	<description>Simple JNA library to get the current machine's hostname from Java</description>
