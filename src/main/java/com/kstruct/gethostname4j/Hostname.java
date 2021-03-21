@@ -20,7 +20,7 @@ public class Hostname {
         if (Platform.isWindows()) {
             return Kernel32Util.getComputerName();
         } else {
-            // For now, we'll consider anyhting other than Windows to be unix-ish enough to have gethostname
+            // For now, we'll consider anything other than Windows to be unix-ish enough to have gethostname
             // TODO - Consider http://stackoverflow.com/a/10543006 as a possibly better MacOS option
             
             byte[] hostnameBuffer = new byte[4097];
