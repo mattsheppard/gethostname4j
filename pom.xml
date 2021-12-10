@@ -46,7 +46,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<version.jna>5.3.1</version.jna>
+		<version.jna>5.7.0</version.jna>
 	</properties>
 
 	<dependencies>
@@ -86,8 +86,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.6.0</version>
 				<configuration>
-					<source>1.4</source>
-					<target>1.4</target>
+					<source>1.6</source>
+					<target>1.6</target>
 				</configuration>
 			</plugin>
 		</plugins>
