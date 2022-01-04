@@ -35,8 +35,6 @@ in Gradle
 - http://stackoverflow.com/questions/6050011/how-do-i-get-the-local-hostname-if-unresolvable-through-dns-in-java
 - http://stackoverflow.com/questions/36130908/bad-behavior-with-inetaddress-getlocalhost-gethostname-in-java-8
 
-## Builds
-
-Travis CI (Linux and Mac) build: [![Linux and Mac Build Status](https://travis-ci.com/mattsheppard/gethostname4j.svg?branch=master)](https://travis-ci.com/mattsheppard/gethostname4j)
+## Build/Test
 
 Appveyor (Windows) build: [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mattsheppard/gethostname4j?branch=master&svg=true)](https://ci.appveyor.com/project/mattsheppard/gethostname4j)
