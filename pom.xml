@@ -2,13 +2,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kstruct</groupId>
 	<artifactId>gethostname4j</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<name>gethostname4j</name>
 	<description>Simple JNA library to get the current machine's hostname from Java</description>
 	<url>https://github.com/mattsheppard/gethostname4j</url>
-	<!-- Note to myself - release this in maven central with... -->
-	<!-- env JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/ mvn clean deploy -P release -P ossrh -->
 
 	<licenses>
 		<license>
