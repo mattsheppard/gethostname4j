@@ -37,6 +37,6 @@ in Gradle
 
 ## Builds
 
-Travis CI (Linux and Mac) build: [![Linux and Mac Build Status](https://travis-ci.org/mattsheppard/gethostname4j.svg?branch=master)](https://travis-ci.org/mattsheppard/gethostname4j)
+Travis CI (Linux and Mac) build: [![Linux and Mac Build Status](https://travis-ci.com/mattsheppard/gethostname4j.svg?branch=master)](https://travis-ci.com/mattsheppard/gethostname4j)
 
 Appveyor (Windows) build: [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mattsheppard/gethostname4j?branch=master&svg=true)](https://ci.appveyor.com/project/mattsheppard/gethostname4j)
