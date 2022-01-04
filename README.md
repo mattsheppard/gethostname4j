@@ -37,4 +37,7 @@ in Gradle
 
 ## Build/Test
 
-Appveyor (Windows) build: [![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/mattsheppard/gethostname4j?branch=master&svg=true)](https://ci.appveyor.com/project/mattsheppard/gethostname4j)
+[![Linux Java 11 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk11.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk11.yml)
+[![Mac Java 11 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml)
+[![Mac Java 11 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml)
+[![Linux Java 8 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk8.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk8.yml)
