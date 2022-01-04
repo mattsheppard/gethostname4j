@@ -1,5 +1,7 @@
-## 0.0.4-SNAPSHOT
+## 1.0.1-SNAPSHOT
+- Nothing yet
 
+## 1.0.0
 - Upgraded to JNA 5.7.0 to hopefully fix issues with Apple Silicon Macs.
 - Changed to require Java 1.6 as a minimum.
 
