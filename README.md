@@ -39,5 +39,5 @@ in Gradle
 
 [![Linux Java 11 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk11.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk11.yml)
 [![Mac Java 11 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml)
-[![Mac Java 11 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/macos-jdk11.yml)
+[![Windows Java 11 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/windows-jdk11.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/windows-jdk11.yml)
 [![Linux Java 8 CI](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk8.yml/badge.svg)](https://github.com/mattsheppard/gethostname4j/actions/workflows/linux-jdk8.yml)
