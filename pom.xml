@@ -67,6 +67,21 @@
 	</dependencies>
 
 	<build>
+		<resources>
+			<!-- Preserve default setting from the super-pom -->
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+			<!-- Include the LICENSE.txt under META-INF in the resulting jar
+			     Requested in https://github.com/mattsheppard/gethostname4j/issues/6 -->
+			<resource>
+				<directory>${basedir}</directory>
+				<targetPath>META-INF</targetPath>
+				<includes>
+					<include>LICENSE.txt</include>
+				</includes>
+			</resource>
+		</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
